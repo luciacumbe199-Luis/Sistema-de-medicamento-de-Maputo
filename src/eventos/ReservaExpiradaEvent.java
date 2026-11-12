@@ -2,7 +2,7 @@ package eventos;
 
 import java.time.LocalDateTime;
 
-/** Facto imutável que regista a expiração de uma reserva. */
+/** Facto imutável que regista a expiração de uma reserva.. */
 public final class ReservaExpiradaEvent {
     private final String idReserva;
     private final String idMedicamento;

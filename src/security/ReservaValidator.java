@@ -2,7 +2,7 @@ package security;
 
 import model.Medicamento;
 
-/** Valida os dados recebidos antes de executar uma operação de reserva. */
+/** Valida os dados recebidos antes de executar uma operação de reserva.. */
 public final class ReservaValidator {
     private ReservaValidator() { }
 

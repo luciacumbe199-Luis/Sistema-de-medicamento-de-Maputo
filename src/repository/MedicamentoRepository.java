@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/** Repositório em memória do catálogo de medicamentos. */
+/** Repositório em memória do catálogo de medicamentos.. */
 public class MedicamentoRepository {
     private final List<Medicamento> medicamentos = new ArrayList<>();
 

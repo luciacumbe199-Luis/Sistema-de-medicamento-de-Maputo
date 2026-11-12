@@ -2,7 +2,7 @@ package eventos;
 
 import java.time.LocalDateTime;
 
-/** Facto imutável que regista a criação de uma reserva. */
+/** Facto imutável que regista a criação de uma reserva.. */
 public final class ReservaCriadaEvent {
     private final String idReserva;
     private final String idMedicamento;

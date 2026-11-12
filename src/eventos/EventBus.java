@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Consumer;
 
-/** Barramento síncrono: encaminha cada evento aos consumidores registados. */
+/** Barramento síncrono: encaminha cada evento aos consumidores registados.. */
 public final class EventBus {
     private final ConcurrentHashMap<Class<?>, CopyOnWriteArrayList<Consumer<?>>> listeners = new ConcurrentHashMap<>();
 

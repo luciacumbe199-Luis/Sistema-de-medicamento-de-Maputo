@@ -4,7 +4,7 @@ import model.Reserva;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Repositório em memória de reservas, com acesso seguro entre threads. */
+/** Repositório em memória de reservas, com acesso seguro entre threads.. */
 public class ReservaRepository {
     private final List<Reserva> reservas = new ArrayList<>();
 
